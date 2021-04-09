@@ -1,0 +1,24 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "CSS/SCSS project",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "scss": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorinInfo/Natours.git"
+  },
+  "author": "Florin Bucataru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlorinInfo/Natours/issues"
+  },
+  "homepage": "https://github.com/FlorinInfo/Natours#readme"
+}
