@@ -24,6 +24,11 @@
         color: $color-grey-dark;
     }
 
+    &--green{
+        background-color: $color-primary-dark;
+        color: $color-white;  
+    }
+
     &::after{
         content: "";
         display: inline-block;
@@ -40,6 +45,7 @@
     &--white::after{
         background: $color-white;
     }
+
 
     &:hover::after{
         transform: scale(1.5);
