@@ -13,10 +13,12 @@
 @import "./components/card";  
 @import "./components/form"; 
 @import "./components/story"; 
+@import "./components/bg-video";
 
-@import "layout/_header.scss"; 
+@import "layout/_header.scss";   
 @import "./layout/grid";
 @import "./layout/footer";
+@import "./layout/navigation"; 
 
 @import "pages/home.scss"; 
 

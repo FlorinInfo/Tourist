@@ -14,6 +14,24 @@
         <title>Outdoor | Exciting tours for adventurous people</title>
     </head>
     <body>
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            <label for="navi-toggle" class="navigation__button">MENU</label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span> About Natours</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benefits</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book Now</a></li>
+
+                </ul>
+            </nav> 
+        </div>
+
         <header class="header">
             <div class="header__logo-box">
                 <img src="./img/logo-white.png" alt="Logo" class="header__logo">
@@ -213,6 +231,13 @@
                 </div>
              </section>
              <section class="section-stories">
+                <div class="bg-video">
+                    <video class="bg-video__content" autoplay muted loop>
+                        <source src="./img/video.mp4" type="video/mp4">
+                        <source src="./img/video.webm" type="video/webm">
+                        Your browser is not supported
+                    </video>
+                </div>
                 <div class="u-center-text u-margin-bottom-small ">
                     <h2 class="heading-secondary">
                         We make people genuinely happy
@@ -222,12 +247,28 @@
                     <div class="story">
                         <figure class="story__shape">
                             <img src="./img/nat-8.jpg" alt="Person on a tour" class="story__img">
+                            <figcaption class="story__caption">Emily Smith</figcaption>
                         </figure>
                         <div class="story__text">
                             <h3 class="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit alias quibusdam architecto sequi? Quos sunt ducimus est laboriosam non magni voluptate accusamus beatae, fugiat voluptatem. Quidem corrupti illo culpa nihil.</p>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="story">
+                        <figure class="story__shape">
+                            <img src="./img/nat-9.jpg" alt="Person on a tour" class="story__img">
+                            <figcaption class="story__caption">Jack Wilson</figcaption>
+                        </figure>
+                        <div class="story__text">
+                            <h3 class="heading-tertiary u-margin-bottom-small">Wow my life is completely different now!</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit alias quibusdam architecto sequi? Quos sunt ducimus est laboriosam non magni voluptate accusamus beatae, fugiat voluptatem. Quidem corrupti illo culpa nihil.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="u-center-text u-margin-top-huge">
+                    <a href="#" class="btn-text">Read all stories &rarr;</a>
                 </div>
             </section>
             <section class="section-book">
